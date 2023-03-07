@@ -35,17 +35,3 @@ M_2stage <- lm( I(sqrt(Y)) ~ (E4+G4)^2, data=P2)
 temp <- summary(M_2stage)
 temp$coefficients[ abs(temp$coefficients[,3]) >= 4, ]
 citation()
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
